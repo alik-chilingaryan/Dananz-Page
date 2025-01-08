@@ -1,0 +1,1118 @@
+/* .poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    } */
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.container-1,
+.main-container-1,
+.hero-img,
+article,
+footer {
+  width: 1600px;
+  margin: 30px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dananz-logo {
+  width: 200px;
+  height: 100px;
+}
+
+.header-nav {
+  display: flex;
+  font-style: normal;
+  justify-content: end;
+  align-items: baseline;
+  align-items: center;
+  gap: 74px;
+}
+.header-ul {
+  font-size: 1.5rem;
+  display: flex;
+  font-weight: 400;
+  gap: 74px;
+}
+
+.header-ul > li > a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.header-ul > li:last-child {
+  font-weight: bold;
+}
+
+.header-button {
+  font-size: calc(1rem-2px);
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  width: 162px;
+  height: 69px;
+  background-color: #2c3878;
+  border: 1px solid #3c3c3c;
+  /* margin-right: 100px; */
+}
+
+.header-button:hover {
+  background-color: #1e2755;
+}
+
+.main {
+}
+
+.main-name {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-text {
+  line-height: 35px;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+article {
+  display: flex;
+  gap: 40px;
+  /* overflow: scroll; */
+}
+
+.article-container1,
+.article-container2 {
+  display: flex;
+  width: 850px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.article-name {
+  font-size: 2rem;
+  font-weight: 600;
+  columns: #333333;
+}
+
+.article-text {
+  font-size: 1.3rem;
+  color: #9c9c9c;
+  flex-grow: 1;
+}
+
+.article-container1-ul {
+  gap: 80px;
+  display: flex;
+}
+
+.other-images {
+  display: flex;
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.other-images:nth-child(3) {
+  width: 100%;
+}
+
+.small-img {
+  width: 786.5px;
+}
+
+.big-img {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.main-bottom-part {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 210px;
+  background-color: #1e2755;
+}
+
+.main-bottom-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 25px;
+  height: 160px;
+}
+
+.main-bottom-part2 {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-part1-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 61.5px;
+  color: white;
+}
+
+.bottom-part2-text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #d9d9d9;
+  /* flex-grow: 1; */
+}
+
+.part2-middle {
+  flex-grow: 1;
+}
+
+.bottom-part2-button {
+  background-color: white;
+  color: #333333;
+  font-size: 1rem;
+  width: 162px;
+  height: 69px;
+  cursor: pointer;
+}
+
+.bottom-part2-button:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-part1 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  gap: 10px;
+}
+
+
+.footer-part1-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.footer-part2 {
+  width: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: end;
+}
+
+.input-top-text {
+  font-size: 1.5rem;
+}
+
+.input {
+  border: none;
+  border-bottom:1px solid #141414;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+input::placeholder {
+color: #D9D9D9;
+font-size: 1.2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer-button {
+  position: absolute;
+  top: 40%;
+  background-color: white;
+  color: #141414;
+  border: none;
+  align-self: flex-end;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.follow-text {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.follow-ul {
+  display: flex;
+  gap: 20px;
+}
+
+.follow-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+}
+
+.follow-icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.icon-youtube {
+  height: 24px;
+  width: 28px;
+}
+
+
+@media (max-width: 1700px) {
+.container-1,
+.main-container-1,
+.hero-img,
+article,
+footer {
+  width: 1400px;
+  margin: 30px auto;
+}
+
+.dananz-logo {
+  width: 180px;
+  height: 80px;
+}
+
+.header-nav {
+  gap: 70px;
+}
+.header-ul {
+  font-size: 1.4rem;
+  display: flex;
+  font-weight: 400;
+  gap: 70px;
+}
+
+.header-button {
+  font-size: calc(1rem-4px);
+  font-size: 1rem;
+  color: white;
+  width: 156px;
+  height: 63px;
+}
+
+.main-name {
+  font-size: 3.8rem;
+  margin-top: 46px;
+}
+
+.main-text {
+  line-height: 31px;
+  font-size: 1.1rem;
+  margin-top: 46px;
+}
+
+article {
+  gap: 36px;
+}
+
+.article-container1,
+.article-container2 {
+  width: 830px;
+  gap: 28px;
+}
+
+.article-name {
+  font-size: 1.8rem;
+}
+
+.article-text {
+  font-size: 1.1rem;
+}
+
+.article-container1-ul {
+  gap: 76px;
+}
+
+.other-images {
+  gap: 21px;
+}
+
+.small-img {
+  width: 689.5px;
+}
+
+.main-bottom-part {
+  margin: 80px 0;
+  height: 170px;
+}
+
+.main-bottom-part1 {
+  gap: 21px;
+  height: 120px;
+}
+
+.main-bottom-part2 {
+  height: 120px;
+}
+
+.bottom-part1-text {
+  font-size: 2.6rem;
+  line-height: 41.5px;
+}
+
+.bottom-part2-text {
+  font-size: 1.3rem;
+}
+
+.bottom-part2-button {
+  font-size: 0.8rem;
+  width: 142px;
+  height: 49px;
+}
+
+
+.footer-part1 {
+  height: 260px;
+  gap: 6px;
+}
+
+.footer-part1-text {
+  font-size: 2.3rem;
+}
+
+.footer-part2 {
+  width: 600px;
+  gap: 26px;
+}
+
+.input-top-text {
+  font-size: 1.3rem;
+}
+
+.input {
+  padding-bottom: 16px;
+}
+
+input::placeholder {
+font-size: 1rem;
+}
+
+.footer-button {
+  top: 30%;
+  font-size: 2.3rem;
+}
+
+.follow-text {
+  font-size: 1.1rem;
+}
+
+.follow-ul {
+  gap: 16px;
+}
+
+.follow-link {
+  width: 36px;
+  height: 36px;
+}
+
+.follow-icons-container {
+  gap: 16px;
+}
+}
+
+@media (max-width: 1500px) {
+  .container-1,
+  .main-container-1,
+  .hero-img,
+  article,
+  footer {
+    width: 1200px;
+    margin: 26px auto;
+  }
+  
+  .dananz-logo {
+    width: 160px;
+    height: 60px;
+  }
+  
+  .header-nav {
+    gap: 50px;
+  }
+
+  .header-ul {
+    font-size: 1.2rem;
+    gap: 50px;
+  }
+  
+  .header-button {
+    font-size: calc(1rem-6px);
+    font-size: 0.8rem;
+    width: 136px;
+    height: 43px;
+  }
+  
+  .main-name {
+    font-size: 3.0rem;
+    margin-top: 46px;
+  }
+  
+  .main-text {
+    line-height: 27px;
+    font-size: 0.9rem;
+    margin-top: 36px;
+  }
+  
+  article {
+    gap: 32px;
+  }
+  
+  .article-container1,
+  .article-container2 {
+    width: 630px;
+    gap: 22px;
+  }
+  
+  .article-name {
+    font-size: 1.4rem;
+  }
+  
+  .article-text {
+    font-size: 0.9rem;
+  }
+  
+  .article-container1-ul {
+    gap: 70px;
+  }
+  
+  .other-images {
+    gap: 17px;
+  }
+  
+  .small-img {
+    width: 591.5px;
+  }
+  
+  .main-bottom-part {
+    margin: 60px 0;
+    height: 140px;
+  }
+  
+  .main-bottom-part1 {
+    gap: 17px;
+    height: 80px;
+  }
+  
+  .main-bottom-part2 {
+    height: 80px;
+    gap: 2px;
+  }
+  
+  .bottom-part1-text {
+    font-size: 2rem;
+    line-height: 21.5px;
+  }
+  
+  .bottom-part2-text {
+    font-size: 1rem;
+  }
+  
+  .bottom-part2-button {
+    font-size: calc(1rem-6px);
+    font-size: 0.8rem;
+    width: 136px;
+    height: 43px;
+  }
+  
+  
+  .footer-part1 {
+    height: 180px;
+    gap: 4px;
+  }
+
+  .footer-dananz-logo {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .footer-part1-text {
+    font-size: 1.6rem;
+  }
+  
+  .footer-part2 {
+    width: 500px;
+    gap: 24px;
+  }
+  
+  .input-top-text {
+    font-size: 1.1rem;
+  }
+  
+  .input {
+    padding-bottom: 14px;
+  }
+  
+  input::placeholder {
+  font-size: 0.8rem;
+  }
+  
+  .footer-button {
+    top: 17%;
+    font-size: 2.1rem;
+  }
+  
+  .follow-text {
+    font-size: 1.1rem;
+  }
+  
+  .follow-ul {
+    gap: 14px;
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .icon-youtube {
+    height: 19px;
+    width: 23px;
+  }
+  
+  .follow-link {
+    width: 31px;
+    height: 31px;
+  }
+  
+  .follow-icons-container {
+    gap: 14px;
+  }
+  }
+  
+  @media (max-width: 1250px) {
+    .container-1,
+    .main-container-1,
+    .hero-img,
+    article,
+    footer {
+      width: 1000px;
+      margin: 26px auto;
+    }
+    
+    .dananz-logo {
+      width: 150px;
+      height: 50px;
+    }
+    
+    .header-nav {
+      gap: 40px;
+    }
+  
+    .header-ul {
+      font-size: 1rem;
+      gap: 40px;
+    }
+    
+    .header-button {
+      font-size: calc(1rem-7px);
+      font-size: 0.7rem;
+      width: 126px;
+      height: 33px;
+    }
+    
+    .main-name {
+      font-size: 2.5rem;
+      margin-top: 40px;
+    }
+    
+    .main-text {
+      line-height: 25px;
+      font-size: calc(0.9rem - 2px);
+      margin-top: 28px;
+    }
+    
+    article {
+      gap: 30px;
+    }
+    
+    .article-container1,
+    .article-container2 {
+      width: 530px;
+      gap: 20px;
+    }
+    
+    .article-name {
+      font-size: 1.2rem;
+    }
+    
+    .article-text {
+      font-size: 0.8rem;
+    }
+    
+    .article-container1-ul {
+      gap: 60px;
+    }
+    
+    .other-images {
+      gap: 15px;
+    }
+    
+    .small-img {
+      width: 492.5px;
+    }
+    
+    .main-bottom-part {
+      margin: 50px 0;
+      height: 120px;
+    }
+    
+    .main-bottom-part1 {
+      gap: 15px;
+      height: 70px;
+    }
+    
+    .main-bottom-part2 {
+      height: 70px;
+      gap: 2px;
+    }
+    
+    .bottom-part1-text {
+      font-size: 1.8rem;
+      line-height: 20.5px;
+    }
+    
+    .bottom-part2-text {
+      font-size: 0.9rem;
+    }
+    
+    .bottom-part2-button {
+      font-size: calc(1rem-8px);
+      font-size: 0.7rem;
+      width: 136px;
+      height: 43px;
+    }
+    
+    
+    .footer-part1 {
+      height: 160px;
+      gap: 3px;
+    }
+    
+    .footer-part1-text {
+      font-size: 1.5rem;
+    }
+    
+    .footer-part2 {
+      width: 400px;
+      gap: 24px;
+    }
+    
+    .input-top-text {
+      font-size: 1rem;
+    }
+    
+    .input {
+      padding-bottom: 13px;
+    }
+    
+    input::placeholder {
+    font-size: 0.7rem;
+    }
+    
+    .footer-button {
+      top: 17%;
+      font-size: 2rem;
+    }
+    
+    .follow-text {
+      font-size: 1rem;
+    }
+    
+    .follow-ul {
+      gap: 14px;
+    }
+  
+    .icon {
+      height: 28px;
+      width: 28px;
+    }
+    
+    .icon-youtube {
+      height: 17px;
+      width: 21px;
+    }
+    
+    .follow-link {
+      width: 31px;
+      height: 31px;
+    }
+    
+    .follow-icons-container {
+      gap: 14px;
+    }
+    }
+  
+    @media (max-width: 1050px) {
+      .container-1,
+      .main-container-1,
+      .hero-img,
+      article,
+      footer {
+        width: 800px;
+        margin: 24px auto;
+      }
+      
+      .dananz-logo {
+        width: 135px;
+        height: 35px;
+      }
+      
+      .header-nav {
+        gap: 35px;
+      }
+    
+      .header-ul {
+        font-size: 0.8rem;
+        gap: 35px;
+      }
+      
+      .header-button {
+        font-size: calc(1rem-8px);
+        font-size: calc(0.7rem - 2px);
+        width: 100px;
+        height: 23px;
+      }
+      
+      .main-name {
+        font-size: 2rem;
+        margin-top: 30px;
+      }
+      
+      .main-text {
+        line-height: 20px;
+        font-size: calc(0.9rem - 5px);
+        margin-top: 20px;
+      }
+      
+      article {
+        gap: 20px;
+      }
+      
+      .article-container1,
+      .article-container2 {
+        width: 430px;
+        gap: 18px;
+      }
+      
+      .article-name {
+        font-size: 1rem;
+      }
+      
+      .article-text {
+        font-size: 0.7rem;
+      }
+      
+      .article-container1-ul {
+        gap: 50px;
+      }
+      
+      .other-images {
+        gap: 12px;
+      }
+      
+      .small-img {
+        width: 393.9px;
+      }
+      
+      .main-bottom-part {
+        margin: 40px 0;
+        height: 100px;
+      }
+      
+      .main-bottom-part1 {
+        gap: 13px;
+        height: 50px;
+      }
+      
+      .main-bottom-part2 {
+        height: 50px;
+        gap: 2px;
+      }
+      
+      .bottom-part1-text {
+        font-size: 1.5rem;
+        line-height: 18.5px;
+      }
+      
+      .bottom-part2-text {
+        font-size: 0.8rem;
+      }
+      
+      .bottom-part2-button {
+        font-size: calc(1rem-8px);
+        font-size: 0.6rem;
+        width: 100px;
+        height: 23px;
+      }
+      
+      
+      .footer-part1 {
+        height: 140px;
+        gap: 3px;
+      }
+      
+      .footer-part1-text {
+        font-size: 1.3rem;
+      }
+      
+      .footer-part2 {
+        width: 300px;
+        gap: 24px;
+      }
+      
+      .input-top-text {
+        font-size: 0.9rem;
+      }
+      
+      .input {
+        padding-bottom: 12px;
+      }
+      
+      input::placeholder {
+      font-size: 0.6rem;
+      }
+      
+      .footer-button {
+        top: 17%;
+        font-size: 1.7rem;
+      }
+      
+      .follow-text {
+        font-size: 0.8rem;
+      }
+      
+      .follow-ul {
+        gap: 14px;
+      }
+    
+      .icon {
+        height: 24px;
+        width: 24px;
+      }
+      
+      .icon-youtube {
+        height: 13px;
+        width: 17px;
+      }
+      
+      .follow-link {
+        width: 27px;
+        height: 27px;
+      }
+      
+      .follow-icons-container {
+        gap: 14px;
+      }
+      }  
+  
+      @media (max-width: 850px) {
+        .container-1,
+        .main-container-1,
+        .hero-img,
+        article,
+        footer {
+          width: 600px;
+          margin: 20px auto;
+        }
+        
+        .dananz-logo {
+          width: 95px;
+          height: 25px;
+        }
+        
+        .header-nav {
+          gap: 25px;
+        }
+      
+        .header-ul {
+          font-size: 0.6rem;
+          gap: 30px;
+        }
+        
+        .header-button {
+          font-size: calc(1rem-8px);
+          width: 100px;
+          height: 23px;
+        }
+        
+        .main-name {
+          font-size: 1.6rem;
+          margin-top: 25px;
+        }
+        
+        .main-text {
+          line-height: 15px;
+          font-size: calc(0.9rem - 6.5px);
+          margin-top: 20px;
+        }
+        
+        article {
+          gap: 15px;
+        }
+        
+        .article-container1,
+        .article-container2 {
+          width: 330px;
+          gap: 15px;
+        }
+        
+        .article-name {
+          font-size: 0.8rem;
+        }
+        
+        .article-text {
+          font-size: 0.5rem;
+        }
+        
+        .article-container1-ul {
+          gap: 40px;
+        }
+        
+        .other-images {
+          gap: 10px;
+        }
+        
+        .small-img {
+          width: 295px;
+        }
+        
+        .main-bottom-part {
+          margin: 30px 0;
+          height: 80px;
+        }
+        
+        .main-bottom-part1 {
+          gap: 10px;
+          height: 40px;
+        }
+        
+        .main-bottom-part2 {
+          height: 40px;
+          gap: 2px;
+        }
+        
+        .bottom-part1-text {
+          font-size: 1.1rem;
+          line-height: 18.5px;
+        }
+        
+        .bottom-part2-text {
+          font-size: 0.7rem;
+        }
+        
+        .bottom-part2-button {
+          font-size: calc(1rem-8px);
+          width: 90px;
+          height: 23px;
+        }
+        
+        
+        .footer-part1 {
+          height: 140px;
+          gap: 3px;
+        }
+        
+        .footer-part1-text {
+          font-size: 1rem;
+        }
+        
+        .footer-part2 {
+          width: 250px;
+          gap: 22px;
+        }
+        
+        .input-top-text {
+          font-size: 0.7rem;
+        }
+        
+        .input {
+          padding-bottom: 10px;
+        }
+        
+        input::placeholder {
+        font-size: 0.5rem;
+        }
+        
+        .footer-button {
+          top: 17%;
+          font-size: 1.4rem;
+        }
+        
+        .follow-text {
+          font-size: 0.6rem;
+        }
+        
+        .follow-ul {
+          gap: 12px;
+        }
+      
+        .icon {
+          height: 20px;
+          width: 20px;
+        }
+        
+        .icon-youtube {
+          height: 9px;
+          width: 13px;
+        }
+        
+        .follow-link {
+          width: 23px;
+          height: 23px;
+        }
+        
+        .follow-icons-container {
+          gap: 14px;
+        }
+        }  
+    
